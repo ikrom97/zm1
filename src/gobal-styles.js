@@ -8,11 +8,13 @@ const GlobalStyles = createGlobalStyle`
     color: inherit;
   }
 
-  body {
+  body,
+  #__next {
     margin: 0;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color: #F4F4F4;
   }
 `;
 

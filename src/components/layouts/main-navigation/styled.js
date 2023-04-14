@@ -6,7 +6,7 @@ export const Navigation = styled.nav`
   gap: 8px;
 `;
 
-export const NavigationList = styled.ul`
+export const List = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
@@ -14,11 +14,11 @@ export const NavigationList = styled.ul`
   gap: 8px;
 `;
 
-export const NavigationItem = styled.li`
+export const ListItem = styled.li`
   display: flex;
 `;
 
-export const NavigationLink = styled(Link)`
+export const StyledLink = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,4 +1,4 @@
-import Container from '@/components/ui/container/container';
+import { container } from '@/gobal-styles';
 import styled from 'styled-components';
 
 export const Header = styled.header`
@@ -7,7 +7,8 @@ export const Header = styled.header`
   padding: 30px 0;
 `;
 
-export const HeaderContainer = styled(Container)`
+export const Container = styled.div`
+  ${container}
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Navigation, NavigationItem, NavigationLink, NavigationList } from './styled';
+import { List, ListItem, Navigation, StyledLink } from './styled';
 import Button from '@/components/ui/button/button';
-import { AppPage, AppRoute } from '@/const';
 import SearchIcon from '@/components/ui/icons/search-icon';
 import UserIcon from '@/components/ui/icons/user-icon';
 import { useRouter } from 'next/router';
+import { NavigationPages } from '@/const';
 
 function MainNavigation() {
   const router = useRouter();
@@ -12,47 +12,31 @@ function MainNavigation() {
 
   return (
     <Navigation>
-      <NavigationList>
-        <NavigationItem>
-          <NavigationLink
-            className={setClassName(AppRoute.Thoughts)}
-            href={AppRoute.Thoughts}
-          >
-            {AppPage.Thoughts}
-          </NavigationLink>
-        </NavigationItem>
+      <List>
+        {NavigationPages?.map(({title, path}) => (
+          <ListItem key={title}>
+            <StyledLink
+              className={setClassName(path)}
+              href={path}
+            >
+              {title}
+            </StyledLink>
+          </ListItem>
+        ))}
+      </List>
 
-        <NavigationItem>
-          <NavigationLink
-            className={setClassName(AppRoute.Tags)}
-            href={AppRoute.Tags}
-          >
-            {AppPage.Tags}
-          </NavigationLink>
-        </NavigationItem>
-
-        <NavigationItem>
-          <NavigationLink
-            className={setClassName(AppRoute.Author)}
-            href={AppRoute.Author}
-          >
-            {AppPage.Author}
-          </NavigationLink>
-        </NavigationItem>
-      </NavigationList>
-
-      <NavigationList>
-        <NavigationItem>
+      <List>
+        <ListItem>
           <Button title="Поиск">
             <SearchIcon />
           </Button>
-        </NavigationItem>
-        <NavigationItem>
+        </ListItem>
+        <ListItem>
           <Button>
             <UserIcon /> Вход
           </Button>
-        </NavigationItem>
-      </NavigationList>
+        </ListItem>
+      </List>
     </Navigation>
   );
 }

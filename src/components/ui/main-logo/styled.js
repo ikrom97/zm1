@@ -5,6 +5,11 @@ export const Logo = styled(Link)`
   display: flex;
   max-width: max-content;
   align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  color: #E2B65C;
+  font-size: 16px;
+  line-height: 24px;
 `;
 
 export const Icon = styled.span`

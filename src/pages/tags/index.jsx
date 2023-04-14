@@ -4,7 +4,7 @@ import TagsScreen from '@/components/screens/tags-screen/tags-screen';
 
 function Tags() {
   return (
-    <PageWrapper>
+    <PageWrapper withSidebar>
       <TagsScreen />
     </PageWrapper>
   );

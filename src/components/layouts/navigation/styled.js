@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styled from 'styled-components';
 
-export const Navigation = styled.nav`
+export const StyledNavigation = styled.nav`
   display: flex;
   gap: 8px;
 `;
@@ -18,7 +18,7 @@ export const ListItem = styled.li`
   display: flex;
 `;
 
-export const StyledLink = styled(Link)`
+export const PageLink = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyledLink } from './styled';
 
-function SocialLink({ icon, title, label, href }) {
+function SocialLink({ icon, ...rest }) {
   return (
-    <StyledLink href={href} title={title} aria-label={label}>
+    <StyledLink {...rest}>
       {icon}
     </StyledLink>
   );

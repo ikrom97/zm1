@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyledLink } from './styled';
 
-function TextLink({ children }) {
+function TextLink({ children, ...rest }) {
   return (
-    <StyledLink>
+    <StyledLink {...rest}>
       {children}
     </StyledLink>
   );

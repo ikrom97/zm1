@@ -1,4 +1,4 @@
-import { createGlobalStyle, css } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   *,
@@ -16,6 +16,9 @@ const GlobalStyles = createGlobalStyle`
     flex-direction: column;
     background-color: #F4F4F4;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
   }
 
   img {
@@ -24,9 +27,3 @@ const GlobalStyles = createGlobalStyle`
 `;
 
 export default GlobalStyles;
-
-export const container = css`
-  width: 100%;
-  margin: 0 auto;
-  max-width: 1128px;
-`;

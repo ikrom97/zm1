@@ -1,20 +1,25 @@
 import React from 'react';
-import PageHeader from '../page-header/page-header';
-import PageFooter from '../page-footer/page-footer';
 import Head from 'next/head';
+import { PageContainer } from './styled';
+import Sidebar from '../sidebar/sidebar';
+import Footer from '../footer/footer';
+import Header from '../header/header';
 
-function PageWrapper({ children }) {
+function PageWrapper({ children, withSidebar }) {
   return (
     <>
       <Head>
         <title>Авторский сайт Зафара Мирзо</title>
       </Head>
 
-      <PageHeader />
-      
-      {children}
-      
-      <PageFooter />
+      <Header />
+
+      <PageContainer>
+        {withSidebar && <Sidebar />}
+        {children}
+      </PageContainer>
+
+      <Footer />
     </>
   );
 }

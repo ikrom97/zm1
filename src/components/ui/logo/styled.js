@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styled from 'styled-components';
 
-export const Logo = styled(Link)`
+export const StyledLogo = styled(Link)`
   display: flex;
   max-width: max-content;
   align-items: center;

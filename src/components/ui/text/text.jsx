@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyledText } from './styled';
 
-function Text({ children, color }) {
+function Text({ children, ...rest }) {
   return (
-    <StyledText color={color}>
+    <StyledText {...rest}>
       {children}
     </StyledText>
   );

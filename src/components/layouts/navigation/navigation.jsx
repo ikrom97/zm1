@@ -1,26 +1,26 @@
 import React from 'react';
-import { List, ListItem, Navigation, StyledLink } from './styled';
+import { List, ListItem, PageLink, StyledNavigation } from './styled';
 import Button from '@/components/ui/button/button';
 import SearchIcon from '@/components/ui/icons/search-icon';
 import UserIcon from '@/components/ui/icons/user-icon';
 import { useRouter } from 'next/router';
 import { NavigationPages } from '@/const';
 
-function MainNavigation() {
+function Navigation() {
   const router = useRouter();
   const setClassName = (path) => router.pathname.includes(path) ? 'active' : '';
 
   return (
-    <Navigation>
+    <StyledNavigation>
       <List>
         {NavigationPages?.map(({title, path}) => (
           <ListItem key={title}>
-            <StyledLink
+            <PageLink
               className={setClassName(path)}
               href={path}
             >
               {title}
-            </StyledLink>
+            </PageLink>
           </ListItem>
         ))}
       </List>
@@ -37,8 +37,8 @@ function MainNavigation() {
           </Button>
         </ListItem>
       </List>
-    </Navigation>
+    </StyledNavigation>
   );
 }
 
-export default MainNavigation;
+export default Navigation;

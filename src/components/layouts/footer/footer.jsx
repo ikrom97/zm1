@@ -1,15 +1,16 @@
 import React from 'react';
 import Text from '@/components/ui/text/text';
-import { Container, Logo, Footer } from './styled';
+import { StyledFooter, FooterContainer } from './styled';
 import Link from 'next/link';
 import { AppRoute } from '@/const';
 import SocialLinks from '@/components/ui/social-links/social-links';
+import MainLogo from '@/components/ui/logo/logo';
 
-function PageFooter() {
+function Footer() {
   return (
-    <Footer>
-      <Container>
-        <Logo />
+    <StyledFooter>
+      <FooterContainer>
+        <MainLogo footer />
 
         <Text>
           Отзывы и предложения направляйте <br />
@@ -22,9 +23,9 @@ function PageFooter() {
         </Link>
 
         <SocialLinks />
-      </Container>
-    </Footer>
+      </FooterContainer>
+    </StyledFooter>
   );
 }
 
-export default PageFooter;
+export default Footer;

@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyledContainer } from './styled';
 
-function Container({ children }) {
+function Container({ children, ...rest }) {
   return (
-    <StyledContainer>
+    <StyledContainer {...rest}>
       {children}
     </StyledContainer>
   );

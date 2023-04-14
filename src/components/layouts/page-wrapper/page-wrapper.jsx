@@ -4,6 +4,7 @@ import { PageContainer } from './styled';
 import Sidebar from '../sidebar/sidebar';
 import Footer from '../footer/footer';
 import Header from '../header/header';
+import SelectedPost from '@/components/ui/selected-post/selected-post';
 
 function PageWrapper({ children, withSidebar }) {
   return (
@@ -20,6 +21,8 @@ function PageWrapper({ children, withSidebar }) {
       </PageContainer>
 
       <Footer />
+
+      <SelectedPost />
     </>
   );
 }

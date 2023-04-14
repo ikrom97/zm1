@@ -2,11 +2,17 @@ import Image from 'next/image';
 import styled from 'styled-components';
 import { StyledTitle } from '../title/styled';
 import Text from '../text/text';
+import Link from 'next/link';
 
 export const Card = styled.article`
   display: flex;
   flex-direction: column;
-  cursor: pointer;
+`;
+
+export const CardLink = styled(Link)`
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
 `;
 
 export const PostImage = styled(Image)`

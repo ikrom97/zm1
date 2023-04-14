@@ -8,6 +8,21 @@ const GlobalStyles = createGlobalStyle`
     color: inherit;
   }
 
+  html {
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: #111111;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background-color: #E2B65C;
+      border-radius: 2px;
+    }
+  }
+
   body,
   #__next {
     margin: 0;

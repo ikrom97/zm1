@@ -14,7 +14,10 @@ function Sidebar() {
 
       <Posts>
         {posts?.map((post) =>
-          <PostCard key={post.id} post={post} />
+          <PostCard
+            key={post.id}
+            post={post}
+          />
         )}
       </Posts>
     </StyledSidebar>

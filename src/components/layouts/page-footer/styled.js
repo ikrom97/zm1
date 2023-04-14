@@ -13,6 +13,7 @@ export const Container = styled.div`
   ${container}
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 48px;
 `;
 

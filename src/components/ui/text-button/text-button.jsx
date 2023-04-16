@@ -2,7 +2,7 @@ import React from 'react';
 import { StyledButton } from './styled';
 import Link from 'next/link';
 
-function Button({ children, href, ...rest }) {
+function TextButton({ children, href, ...rest }) {
   return href ? (
     <StyledButton as={Link} href={href} {...rest}>
       {children}
@@ -14,4 +14,4 @@ function Button({ children, href, ...rest }) {
   );
 }
 
-export default Button;
+export default TextButton;

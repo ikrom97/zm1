@@ -1,6 +1,7 @@
 export const AppRoute = {
   Home: '/',
-  Thoughts: '/thoughts',
+  Quotes: '/quotes',
+  QuotesSelected: '/quotes/:id',
   Tags: '/tags',
   Author: '/author',
   PrivacyPolicy: '/privacy-policy',
@@ -8,7 +9,7 @@ export const AppRoute = {
 
 export const AppPage = {
   Home: 'Главная',
-  Thoughts: 'Мысли',
+  Quotes: 'Мысли',
   Tags: 'Теги',
   Author: 'Об авторе',
   PrivacyPolicy: 'Пользовательское соглашение',
@@ -16,8 +17,8 @@ export const AppPage = {
 
 export const NavigationPages = [
   {
-    title: AppPage.Thoughts,
-    path: AppRoute.Thoughts,
+    title: AppPage.Quotes,
+    path: AppRoute.Quotes,
   },
   {
     title: AppPage.Tags,

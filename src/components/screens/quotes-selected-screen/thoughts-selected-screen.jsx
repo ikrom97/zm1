@@ -1,8 +1,11 @@
 import React from 'react';
+import { StyledScreen } from './styled';
 
 function QuotesSelectedScreen() {
   return (
-    <div>quotes-selected-screen</div>
+    <StyledScreen>
+      quotes-selected-screen
+    </StyledScreen>
   );
 }
 

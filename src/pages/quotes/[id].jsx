@@ -1,11 +1,11 @@
 import React from 'react';
 import PageWrapper from '@/components/layouts/page-wrapper/page-wrapper';
-import ThoughtsSelectedScreen from '@/components/screens/thoughts-selected/thoughts-screen';
+import QuotesSelectedScreen from '@/components/screens/quotes-selected-screen/thoughts-selected-screen';
 
 function ThoughtsSelected() {
   return (
     <PageWrapper withSidebar>
-      <ThoughtsSelectedScreen />
+      <QuotesSelectedScreen />
     </PageWrapper>
   );
 }

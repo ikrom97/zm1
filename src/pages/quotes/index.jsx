@@ -1,11 +1,11 @@
 import React from 'react';
 import PageWrapper from '@/components/layouts/page-wrapper/page-wrapper';
-import ThoughtsScreen from '@/components/screens/thoughts-screen/thoughts-screen';
+import QuotesScreen from '@/components/screens/quotes-screen/quotes-screen';
 
 function index() {
   return (
     <PageWrapper withSidebar>
-      <ThoughtsScreen />
+      <QuotesScreen />
     </PageWrapper>
   );
 }

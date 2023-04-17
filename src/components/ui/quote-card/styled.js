@@ -25,7 +25,7 @@ export const QuoteDetails = styled.footer`
   color: #B2B2B2;
   font-size: 14px;
   line-height: 26px;
-  padding: 16px 24px;
+  padding: 8px 24px;
   border-top: 1px solid #B2B2B2;
 `;
 

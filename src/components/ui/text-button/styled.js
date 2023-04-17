@@ -11,7 +11,7 @@ export const StyledButton = styled.button`
   border: none;
   background-color: transparent;
   transition: 0.3s;
-  ${(props) => props?.color && `color: ${props?.color};`}
+  ${(props) => props?.clr && `color: ${props?.clr};`}
 
   &:hover {
     color: #111111;

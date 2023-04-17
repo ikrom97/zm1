@@ -9,7 +9,7 @@ function Sidebar() {
     <StyledSidebar>
       <Header>
         <HeaderTitle>Мотивирующие иллюстрации</HeaderTitle>
-        <Text color="#747474">Краткое описание мотивационных цитат</Text>
+        <Text clr="#747474">Краткое описание мотивационных цитат</Text>
       </Header>
 
       <Posts>

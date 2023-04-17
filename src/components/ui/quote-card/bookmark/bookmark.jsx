@@ -7,7 +7,7 @@ function Bookmark() {
 
   return (
     <TextButton
-      color={isFavorite ? '#111111' : ''}
+      clr={isFavorite ? '#111111' : false}
       onClick={() => setIsFavorite(!isFavorite)}
     >
       <BookmarkIcon fill={isFavorite ? '#111111' : 'none'} /> В закладку

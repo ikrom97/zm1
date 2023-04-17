@@ -1,0 +1,1 @@
+export const CommentsSection = styled.section``;

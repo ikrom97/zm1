@@ -10,6 +10,7 @@ export const StyledButton = styled.button`
   cursor: pointer;
   border: none;
   background-color: transparent;
+  padding: 0;
   transition: 0.3s;
   ${(props) => props?.clr && `color: ${props?.clr};`}
 

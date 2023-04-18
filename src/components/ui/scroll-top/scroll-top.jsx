@@ -1,9 +1,9 @@
 import React from 'react';
 import { Icon, ScrollTopButton } from './styled';
 
-function ScrollTop() {
+function ScrollTop(props) {
   return (
-    <ScrollTopButton onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+    <ScrollTopButton {...props} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
       Вернуться вверх <Icon />
     </ScrollTopButton>
   );

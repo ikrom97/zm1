@@ -6,6 +6,7 @@ const GlobalStyles = createGlobalStyle`
   *::after {
     box-sizing: border-box;
     color: inherit;
+    font-family: inherit;
   }
 
   html {

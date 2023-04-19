@@ -12,6 +12,7 @@ function PostCard({ post }) {
           width={232}
           height={142}
           alt={title}
+          priority={id == 1}
         />
 
         <PostTitle>{title}</PostTitle>

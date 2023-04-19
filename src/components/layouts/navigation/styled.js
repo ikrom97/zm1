@@ -27,7 +27,7 @@ export const PageLink = styled(Link)`
   color: white;
   min-height: 40px;
   padding: 8px 24px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   border-radius: 8px;

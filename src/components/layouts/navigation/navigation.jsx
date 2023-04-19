@@ -32,7 +32,7 @@ function Navigation() {
           </Button>
         </ListItem>
         <ListItem>
-          <Button>
+          <Button fw={400}>
             <UserIcon /> Вход
           </Button>
         </ListItem>

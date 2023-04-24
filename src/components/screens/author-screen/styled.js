@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { Title } from '../tags-screen/styled';
-import Image from 'next/image';
 
 export const Screen = styled.main`
   padding-top: 40px;
@@ -37,7 +36,7 @@ export const Author = styled.div`
   gap: 24px;
 `;
 
-export const AuthorImage = styled(Image)`
+export const AuthorImage = styled.img`
   border-radius: 8px;
 `;
 

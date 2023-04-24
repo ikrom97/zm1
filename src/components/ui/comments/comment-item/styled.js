@@ -27,8 +27,7 @@ export const Comment = styled(Text)`
 
 export const Reply = styled(TextButton)`
   color: #B2B2B2;
-  padding: 4px 16px;
-  padding-top: 0;
+  padding: 4px 0;
 
   &:hover {
     color: #747474;

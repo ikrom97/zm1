@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import Title from '../title/title';
-import Image from 'next/image';
 
 export const PostWrap = styled.dialog`
   position: fixed;
@@ -29,7 +28,7 @@ export const Post = styled.article`
   width: 976px;
 `;
 
-export const PostImage = styled(Image)`
+export const PostImage = styled.img`
   display: flex;
   margin-bottom: 16px;
   width: 100%;

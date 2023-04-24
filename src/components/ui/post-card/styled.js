@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import styled from 'styled-components';
 import { StyledTitle } from '../title/styled';
 import Text from '../text/text';
@@ -15,7 +14,7 @@ export const CardLink = styled(Link)`
   text-decoration: none;
 `;
 
-export const PostImage = styled(Image)`
+export const PostImage = styled.img`
   width: 100%;
   border-radius: 4px;
   margin-bottom: 16px;

@@ -15,15 +15,15 @@ export const AppPage = {
   PrivacyPolicy: 'Пользовательское соглашение',
 };
 
-export const NavigationPages = [
+export const navs = [
   {
     title: AppPage.Quotes,
     path: AppRoute.Quotes,
   },
-  {
-    title: AppPage.Tags,
-    path: AppRoute.Tags,
-  },
+  // {
+  //   title: AppPage.Tags,
+  //   path: AppRoute.Tags,
+  // },
   {
     title: AppPage.Author,
     path: AppRoute.Author,

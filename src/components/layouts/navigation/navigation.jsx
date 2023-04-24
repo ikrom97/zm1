@@ -4,16 +4,20 @@ import Button from '@/components/ui/button/button';
 import SearchIcon from '@/components/ui/icons/search-icon';
 import UserIcon from '@/components/ui/icons/user-icon';
 import { useRouter } from 'next/router';
-import { NavigationPages } from '@/const';
+import { navs } from '@/const';
 
 function Navigation() {
   const router = useRouter();
   const setClassName = (path) => router.pathname.includes(path) ? 'active' : '';
 
+  const handleLogin = () => {
+    console.log('Login handler');
+  };
+
   return (
     <StyledNavigation>
       <List>
-        {NavigationPages?.map(({title, path}) => (
+        {navs?.map(({title, path}) => (
           <ListItem key={title}>
             <PageLink
               className={setClassName(path)}
@@ -25,18 +29,18 @@ function Navigation() {
         ))}
       </List>
 
-      <List>
+      {/* <List>
         <ListItem>
           <Button title="Поиск">
             <SearchIcon />
           </Button>
         </ListItem>
         <ListItem>
-          <Button fw={400}>
+          <Button fw={400} onClick={handleLogin}>
             <UserIcon /> Вход
           </Button>
         </ListItem>
-      </List>
+      </List> */}
     </StyledNavigation>
   );
 }

@@ -1,16 +1,16 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import { StyledLogo } from './styled';
-import mainLogo from '/public/img/main-logo.svg';
-import zmIcon from '/public/img/zm-icon.png';
-import Image from 'next/image';
 import { AppRoute } from '@/const';
 import dayjs from 'dayjs';
 
 function Logo({ footer }) {
   return (
     <StyledLogo href={AppRoute.Home}>
-      <Image
-        src={footer ? zmIcon : mainLogo}
+      <img
+        src={footer ? '/img/zm-icon.png' : '/img/main-logo.svg'}
+        width="auto"
+        height="auto"
         alt="На главную страницу"
       />
       {footer && <>

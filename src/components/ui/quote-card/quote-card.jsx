@@ -7,17 +7,16 @@ import TextButton from '@/components/ui/text-button/text-button';
 import Bookmark from './bookmark/bookmark';
 import QuoteShare from './quote-share/quote-share';
 
-function BlockQuote() {
+function BlockQuote({quote}) {
   return (
     <StyledBlockQuote>
       <Wrapper>
-        <Quote>Разумность общества плодотворна, <br />
-          Когда совесть личности свободна.</Quote>
+        <Quote>{quote}</Quote>
 
-        <QuoteTags />
+        {/* <QuoteTags /> */}
       </Wrapper>
 
-      <QuoteDetails>
+      {/* <QuoteDetails>
         <CreatedAt>21.04.2021</CreatedAt>
         <TextButton href={AppRoute.QuotesSelected}>
           <CommentIcon /> 13 комментариев
@@ -25,7 +24,7 @@ function BlockQuote() {
         <Bookmark />
 
         <QuoteShare />
-      </QuoteDetails>
+      </QuoteDetails> */}
     </StyledBlockQuote>
   );
 }

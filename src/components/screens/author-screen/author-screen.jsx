@@ -1,5 +1,4 @@
 import React from 'react';
-import authorImage from '/public/img/author.jpg';
 import Text from '@/components/ui/text/text';
 import Button from '@/components/ui/button/button';
 import SocialLinks from '@/components/ui/social-links/social-links';
@@ -22,7 +21,7 @@ function AuthorScreen() {
     <Screen>
       <Author>
         <AuthorImage
-          src={authorImage}
+          src="/img/author.jpg"
           width={420}
           height={420}
           alt="Зафар Мирзо"

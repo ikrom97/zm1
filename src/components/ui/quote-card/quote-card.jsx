@@ -7,7 +7,7 @@ import TextButton from '@/components/ui/text-button/text-button';
 import Bookmark from './bookmark/bookmark';
 import QuoteShare from './quote-share/quote-share';
 
-function BlockQuote({quote}) {
+function BlockQuote({ quote }) {
   return (
     <StyledBlockQuote>
       <Wrapper>

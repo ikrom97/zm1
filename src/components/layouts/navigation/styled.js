@@ -43,5 +43,6 @@ export const PageLink = styled(Link)`
   &.active {
     pointer-events: none;
     background-color: #E2B65C;
+    visibility: hidden;
   }
 `;

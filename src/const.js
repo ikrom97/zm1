@@ -11,7 +11,7 @@ export const AppPage = {
   Home: 'Home',
   Quotes: 'Thoughts',
   Tags: 'Tags',
-  Author: 'About Author',
+  Author: 'Main',
   PrivacyPolicy: 'Terms of use',
 };
 

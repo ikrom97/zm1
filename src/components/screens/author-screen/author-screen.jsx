@@ -63,12 +63,12 @@ function AuthorScreen() {
           </InfoDescription>
         </InfoItem>
 
-        <InfoItem>
+        {/* <InfoItem>
           <InfoTitle>Social media</InfoTitle>
           <InfoDescription>
             <SocialLinks />
           </InfoDescription>
-        </InfoItem>
+        </InfoItem> */}
       </Info>
     </Screen>
   );

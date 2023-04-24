@@ -7,6 +7,7 @@ import TelegramIcon from '@/components/ui/icons/telegram-icon';
 import { List, ListItem } from './styled';
 
 function SocialLinks() {
+  return null;
   return (
     <List>
       <ListItem>

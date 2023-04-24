@@ -12,15 +12,15 @@ function Footer() {
       <FooterContainer>
         <MainLogo footer />
 
-      <Text>
+        <Text>
           Send feedback and suggestions <br />
           by the address: <Link href="mailto:info@zafarmirzo.com">info@zafarmirzo.com</Link>
         </Text>
 
-        <Link href={AppRoute.PrivacyPolicy}>
+        {/* <Link href={AppRoute.PrivacyPolicy}>
           Terms of use <br />
           Processing of personal data
-        </Link>
+        </Link> */}
 
         <SocialLinks />
       </FooterContainer>

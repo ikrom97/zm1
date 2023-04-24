@@ -8,8 +8,8 @@ function Sidebar() {
   return (
     <StyledSidebar>
       <Header>
-        <HeaderTitle>Мотивирующие иллюстрации</HeaderTitle>
-        <Text clr="#747474">Краткое описание мотивационных цитат</Text>
+        <HeaderTitle>Motivational <br /> illustrations</HeaderTitle>
+        <Text clr="#747474">Brief Description of <br /> Motivational Quotes</Text>
       </Header>
 
       <Posts>

@@ -5,42 +5,39 @@ import Text from '@/components/ui/text/text';
 function PrivacyPolicyScreen() {
   return (
     <Screen>
-      <ScreenTitle>Пользовательское соглашение</ScreenTitle>
+      <ScreenTitle>Terms of use</ScreenTitle>
 
       <Text clr="#747474">
-        1. Общие положения Пользовательского соглашения <br />
-        1.1. В настоящем документе и вытекающих или связанным с ним отношениях Сторон применяются следующие термины и определения: <br />
-        а) Платформа — программно-аппаратные средства, интегрированные с Сайтом Администрации;б) Пользователь — дееспособное физическое лицо, присоединившееся к настоящему Соглашению в собственном интересе либо выступающее от имени и в интересах представляемого им юридического лица.в) Сайт Администрации/ Сайт — интернет-сайты, размещенные в домене ________.ru и его поддоменах.г) Сервис — комплекс услуг и лицензия, предоставляемые Пользователю с использованием Платформы.д) Соглашение - настоящее соглашение со всеми дополнениями и изменениями. <br />
+        1. General provisions of the User Agreement <br />
+        1.1. In this document and the resulting or related relations between the Parties, the following terms and definitions apply: <br />
+        a) Platform - software and hardware integrated with the Administration Website; b) User - a capable individual who has acceded to this Agreement in his own interest or acting on behalf and in the interests of the legal entity he represents. c) Administration Website / Website - Internet sites hosted in the domain and its subdomains. d) Service - a set of services and a license provided to the User using the Platform. e) Agreement - this agreement with all additions and changes. <br />
         <br />
-        1.2. Использование вами Сервиса любым способом и в любой форме в пределах его объявленных функциональных возможностей, включая: <br />
-        просмотр размещенных на Сайте материалов;<br />
-        регистрация и/или авторизация на Сайте,<br />
-        размещение или отображение на Сайте любых материалов, включая но не ограничиваясь такими как: тексты, гипертекстовые ссылки, изображения, аудио и видео- файлы, сведения и/или иная информация,<br />
-        создает договор на условиях настоящего Соглашения в соответствии с положениями ст.437 и 438 Гражданского кодекса Российской Федерации.<br />
+        1.2. Your use of the Service in any way and in any form within its declared functionality, including: <br />
+        viewing materials posted on the Site; <br />
+        registration and / or authorization on the Site, <br />
+        placement or display on the Site of any materials, including but not limited to: texts, hypertext links, images, audio and video files, information and / or other information. <br />
         <br />
-        1.3. Воспользовавшись любой из указанных выше возможностей по использованию Сервиса вы подтверждаете, что:а) Ознакомились с условиями настоящего Соглашения в полном объеме до начала использования Сервиса.б) Принимаете все условия настоящего Соглашения в полном объеме без каких-либо изъятий и ограничений с вашей стороны и обязуетесь их соблюдать или прекратить использование Сервиса. Если вы не согласны с условиями настоящего Соглашения или не имеете права на заключение договора на их основе, вам следует незамедлительно прекратить любое использование Сервиса.в) Соглашение (в том числе любая из его частей) может быть изменено Администрацией без какого-либо специального уведомления. Новая редакция Соглашения вступает в силу с момента ее размещения на Сайте Администрации либо доведения до сведения Пользователя в иной удобной форме, если иное не предусмотрено новой редакцией Соглашения. <br />
+        1.3. By using any of the above options for using the Service, you confirm that: a) You have read the terms of this Agreement in full before using the Service. b) You accept all the terms of this Agreement in full without any exceptions and restrictions on your part, and You agree to comply with them or stop using the Service. If you do not agree with the terms of this Agreement or do not have the right to conclude an agreement based on them, you should immediately stop any use of the Service. c) The Agreement (including any of its parts) may be changed by the Administration without any special notice. The new version of the Agreement comes into force from the moment it is posted on the Administration Website or brought to the attention of the User in another convenient form, unless otherwise provided by the new version of the Agreement. <br />
         <br />
-        2. Условия пользования по Соглашению <br />
-        2.1. Использование функциональных возможностей Сервиса допускается только после прохождения Пользователем регистрации и авторизации на Сайте в соответствии с установленной Администрацией процедурой. <br />
-        2.2. Технические, организационные и коммерческие условия использования Сервиса, в том числе его функциональных возможностей доводятся до сведения Пользователей путем отдельного размещения на Сайте или путем нотификации Пользователей. <br />
-        Готовое решение для вашего бизнеса <br />
+        2. Terms of use under the Agreement <br />
+        2.1. The use of the functionality of the Service is allowed only after the User has registered and authorized on the Site in accordance with the procedure established by the Administration. <br />
+        2.2. The technical, organizational and commercial conditions for using the Service, including its functionality, are brought to the attention of the Users by separate posting on the Site or by notifying the Users. <br />
+        Turnkey solution for your business <br />
         <br />
-        2.3. Выбранные Пользователем логин и пароль являются необходимой и достаточной информацией для доступа Пользователя на Сайт. Пользователь не имеет права передавать свои логин и пароль третьим лицам, несет полную ответственность за их сохранность, самостоятельно выбирая способ их хранения. <br />
-        3. Лицензия на использование Сайта и допустимое использование Сервиса <br />
-        В данном разеле описываются разрешенные способы использования Сайта и предоставляемого на его основе Сервиса. Безвозмездность лицензии препятствует применению Закона О защите прав потребителя в случае, когда на стороне пользователя – физическое лицо. <br />
-        4. Гарантии Пользователя по Соглашению <br />
-        В разеле указываются гарантии и заверения со стороны пользователя о соблюдении требований законодательства и Пользовательского соглашения при использовании Сайта и Сервиса на его основе. Данные положения необходимы, в частности, для последующего возложения ответственности на пользователя за нарушения законодателства или прав третьих лиц в связи с публикацией на сайте противоправных материалов. <br />
+        2.3. The login and password chosen by the User are necessary and sufficient information for the User to access the Site. The user does not have the right to transfer his login and password to third parties, is fully responsible for their safety, independently choosing the method of their storage. <br />
+        3. License to Use the Site and Permissible Use of the Service <br />
+        This section describes the permitted ways of using the Site and the Service provided on its basis. The gratuitousness of the license prevents the application of the Consumer Protection Law in the case when the user is on the side of an individual. <br />
+        4. Guarantees of the User under the Agreement <br />
+        The section indicates the guarantees and assurances on the part of the user about compliance with the requirements of the law and the User Agreement when using the Site and the Service based on it. These provisions are necessary, in particular, for the subsequent imposition of liability on the user for violations of the law or the rights of third parties in connection with the publication of illegal materials on the site. <br />
         <br />
-        5. Лицензия на использование пользовательского контента <br />
-        При организации социального сервиса или платформы для размещения пользователями различных материалов в публичном доступе необходимо оформлять лицензионное соглашение с каждым пользователем на использование его материалов в рамках такого Интернет-сервиса. Например разрешение пользователя на использование его фотографиии может понадобиться для ее публикации на страницах других пользователей и т.д. <br />
-        Кроме того, получение лицензии подтверждает факт использования контента с разрешения пользователя, который отвечает за наличие у него полномочий на выдачу такой лицензии <br />
-        6. Ограничения использования <br />
-        В Пользовательском соглашении необходимо с достаточной ясностью изложить условия об ограничении ответственности за предоставление и использование Сервиса, в том числе публикуемый с его использованием пользовательский контент. <br />
-        Помимо этого, соблюдение требований федерального закона Об информации в редакции нового антипиратского закона предполагает удаление информационным посредником спорных материалов по первому обращению правообладателя. Поэтому Пользовательское соглашение должно предоставлять владельцу интернет-сервиса такую возможность без предварительного согласования и уведомления пользователя <br />
-        7. Уведомления и рассылка <br />
-        Данное положение Соглашения направлено на соблюдение требований о недопущении СПАМа. <br />
-        8. Условия использования аналога собственноручной подписи <br />
-        Раздел включает порядок использования логина и пароля или адреса электронной почты в качестве ключа простой электронной подписи. Данное условие необходимо для придания юридической силы всем действиям сторон и упрощения возможного документооборота. <br />
+        5. License to Use User Content <br />
+        When organizing a social service or platform for users to post various materials in the public domain, it is necessary to draw up a license agreement with each user for the use of his materials within such an Internet service. For example, a users permission to use his photo may be needed to publish it on the pages of other users, etc. <br />
+        In addition, obtaining a license confirms the use of content with the permission of the user, who is responsible for having the authority to issue such a license. <br />
+        6. Restrictions on use <br />
+        In the User Agreement, it is necessary to set out with sufficient clarity the conditions for limiting liability for the provision and use of the Service, including user content published using it. <br />
+        In addition, compliance with the requirements of the federal law On Information as amended by the new anti-piracy law requires the information intermediary to remove controversial materials at the first request of the copyright holder. Therefore, the User Agreement should provide the owner of the Internet service with such an opportunity without prior approval and notification of the user. <br />
+        7. Notifications and distribution <br />
+        This provision <br />
       </Text>
     </Screen>
   );

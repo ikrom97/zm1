@@ -8,11 +8,11 @@ export const AppRoute = {
 };
 
 export const AppPage = {
-  Home: 'Главная',
-  Quotes: 'Мысли',
-  Tags: 'Теги',
-  Author: 'Об авторе',
-  PrivacyPolicy: 'Пользовательское соглашение',
+  Home: 'Home',
+  Quotes: 'Thoughts',
+  Tags: 'Tags',
+  Author: 'About Author',
+  PrivacyPolicy: 'Terms of use',
 };
 
 export const navs = [

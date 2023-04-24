@@ -12,14 +12,14 @@ function Footer() {
       <FooterContainer>
         <MainLogo footer />
 
-        <Text>
-          Отзывы и предложения направляйте <br />
-          по адресу: <Link href="mailto:info@zm-citaty.ru">info@zm-citaty.ru</Link>
+      <Text>
+          Send feedback and suggestions <br />
+          by the address: <Link href="mailto:info@zafarmirzo.com">info@zafarmirzo.com</Link>
         </Text>
 
         <Link href={AppRoute.PrivacyPolicy}>
-          Пользовательское соглашение <br />
-          Обработка персональных данных
+          Terms of use <br />
+          Processing of personal data
         </Link>
 
         <SocialLinks />

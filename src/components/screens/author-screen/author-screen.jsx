@@ -27,43 +27,42 @@ function AuthorScreen() {
           alt="Зафар Мирзо"
           priority
         />
-        <Quote>Счастье – удовлетворённость <br />
-          служением ценностям гуманизма</Quote>
+        <Quote>Happiness is satisfaction in <br />
+          serving the values of humanism</Quote>
       </Author>
 
-      <ScreenTitle>Об авторе</ScreenTitle>
-      <AuthorName>Зафар Мирзо</AuthorName>
+      <ScreenTitle>About author</ScreenTitle>
+      <AuthorName>Zafar Mirzo</AuthorName>
 
       <Info>
         <InfoItem>
-          <InfoTitle>Дата рождения</InfoTitle>
-          <InfoDescription>1 Мая 1972</InfoDescription>
+          <InfoTitle>Date of Birth</InfoTitle>
+          <InfoDescription>May 1, 1972</InfoDescription>
         </InfoItem>
 
         <InfoItem>
-          <InfoTitle>Об авторе</InfoTitle>
+          <InfoTitle>About author</InfoTitle>
           <InfoDescription>
-            <Text>Предприниматель, страны деятельности Индия и СНГ. Предприниматель, страны деятельности Индия и СНГ. Предприниматель, страны деятельности Индия и СНГ.</Text>
-            <Text>Предприниматель, страны деятельности Индия и СНГ. Автор делится своим философским творчеством — опыт из жизни, собственное видение мироздания, затрагивает современные актуальные темы общества, раскрывает новые грани жизни, в форме изречений и понятий.</Text>
+            <Text>Social entrepreneur & Chairman. I also engage in philosophical creativity, and here I publish some of my brief thoughts.</Text>
           </InfoDescription>
         </InfoItem>
 
         <InfoItem>
-          <InfoTitle>Цитаты</InfoTitle>
+          <InfoTitle>Quotes</InfoTitle>
           <InfoDescription>
-            <Text>Вдохновляющие цитаты автора, опубликованные на популярных сайтах:</Text>
+            <Text>Inspirational quotes from the author published on popular websites:</Text>
             <QuoteLinks>
-              <Button>Цитаты известных личностей</Button>
-              <Button>Проза.ру</Button>
-              <Button>Миллион статусов</Button>
-              <Button>Цитаты.инфо</Button>
-              <Button>Жемчужины мысли</Button>
+              <Button>Quotes of famous people</Button>
+              <Button>Proza.ru</Button>
+              <Button>Million statuses</Button>
+              <Button>Quotes.info</Button>
+              <Button>Pearls of Thought</Button>
             </QuoteLinks>
           </InfoDescription>
         </InfoItem>
 
         <InfoItem>
-          <InfoTitle>Социальные сети</InfoTitle>
+          <InfoTitle>Social media</InfoTitle>
           <InfoDescription>
             <SocialLinks />
           </InfoDescription>

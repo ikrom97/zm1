@@ -12,28 +12,29 @@ function SocialLinks() {
       <ListItem>
         <SocialLink
           href="#"
-          title="Фейсбук"
+          title="Facebook"
           icon={<FacebookIcon />}
         />
       </ListItem>
       <ListItem>
         <SocialLink
           href="#"
-          title="Инстаграм"
+          title="Instagram"
           icon={<InstagramIcon />}
         />
       </ListItem>
       <ListItem>
         <SocialLink
-          href="#"
-          title="Твиттер"
+          href="https://twitter.com/zafar_mirzo"
+          target="_blank"
+          title="Twitter"
           icon={<TwitterIcon />}
         />
       </ListItem>
       <ListItem>
         <SocialLink
           href="#"
-          title="Телеграм"
+          title="Telegram"
           icon={<TelegramIcon />}
         />
       </ListItem>

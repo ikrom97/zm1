@@ -13,18 +13,18 @@ function BlockQuote({ quote }) {
       <Wrapper>
         <Quote>{quote}</Quote>
 
-        {/* <QuoteTags /> */}
+        <QuoteTags />
       </Wrapper>
 
-      {/* <QuoteDetails>
-        <CreatedAt>21.04.2021</CreatedAt>
+      <QuoteDetails>
+        {/* <CreatedAt>21.04.2021</CreatedAt>
         <TextButton href={AppRoute.QuotesSelected}>
           <CommentIcon /> 13 комментариев
         </TextButton>
-        <Bookmark />
+        <Bookmark /> */}
 
         <QuoteShare />
-      </QuoteDetails> */}
+      </QuoteDetails>
     </StyledBlockQuote>
   );
 }

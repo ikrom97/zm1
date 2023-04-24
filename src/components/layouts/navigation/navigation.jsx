@@ -8,7 +8,7 @@ import { navs } from '@/const';
 
 function Navigation() {
   const router = useRouter();
-  const setClassName = (path) => router.pathname === path ? 'active' : '';
+  const setClassName = (path) => router.pathname.includes(path) ? 'active' : '';
 
   const handleLogin = () => {
     console.log('Login handler');
@@ -17,7 +17,7 @@ function Navigation() {
   return (
     <StyledNavigation>
       <List>
-        {navs?.map(({title, path}) => (
+        {navs?.map(({ title, path }) => (
           <ListItem key={title}>
             <PageLink
               className={setClassName(path)}

@@ -8,24 +8,24 @@ export const AppRoute = {
 };
 
 export const AppPage = {
-  Home: 'Main',
+  Home: 'Home',
   Quotes: 'Thoughts',
   Tags: 'Tags',
-  Author: 'Main',
+  Author: 'About Author',
   PrivacyPolicy: 'Terms of use',
 };
 
 export const navs = [
-  // {
-  //   title: AppPage.Quotes,
-  //   path: AppRoute.Quotes,
-  // },
-  // {
-  //   title: AppPage.Tags,
-  //   path: AppRoute.Tags,
-  // },
   {
-    title: AppPage.Home,
-    path: AppRoute.Home,
+    title: AppPage.Quotes,
+    path: AppRoute.Quotes,
+  },
+  {
+    title: AppPage.Tags,
+    path: AppRoute.Tags,
+  },
+  {
+    title: AppPage.Author,
+    path: AppRoute.Author,
   }
 ];

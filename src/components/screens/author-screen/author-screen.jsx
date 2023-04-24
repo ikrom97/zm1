@@ -28,8 +28,7 @@ function AuthorScreen() {
           alt="Зафар Мирзо"
           priority
         />
-        <Quote>Happiness is satisfaction in <br />
-          serving the values of humanism</Quote>
+        <Quote>The goal is high when love is vast</Quote>
       </Author>
 
       <ScreenTitle>About author</ScreenTitle>

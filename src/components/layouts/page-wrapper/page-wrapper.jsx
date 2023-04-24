@@ -10,7 +10,7 @@ function PageWrapper({ children, withSidebar }) {
   return (
     <>
       <Head>
-        <title>Author's site Zafar Mirzo</title>
+        <title>Authors site Zafar Mirzo</title>
       </Head>
 
       <Header />

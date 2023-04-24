@@ -8,7 +8,7 @@ export const AppRoute = {
 };
 
 export const AppPage = {
-  Home: 'Home',
+  Home: 'Main',
   Quotes: 'Thoughts',
   Tags: 'Tags',
   Author: 'Main',
@@ -25,7 +25,7 @@ export const navs = [
   //   path: AppRoute.Tags,
   // },
   {
-    title: AppPage.Author,
-    path: AppRoute.Author,
+    title: AppPage.Home,
+    path: AppRoute.Home,
   }
 ];

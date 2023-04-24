@@ -24,20 +24,5 @@ export const posts = [
     title: 'Friendship',
     image: '/img/posts/post-5.jpg',
     description: 'Friendship is associated for us with warm, pleasant feelings. This is the good side of life, and that is why it is valuable. Often, the positive experiences that we have in childhood friendships form the basis of our ability to withstand life\'s difficulties.',
-  }, {
-    id: 6,
-    title: 'Liberty',
-    image: '/img/posts/post-6.jpg',
-    description: 'Freedom of spirit, freedom of will, freedom of thought - all this is so similar, because it is combined into something huge and significant. What each of us lives. But we all live in freedom.',
-  }, {
-    id: 7,
-    title: 'Favorite city',
-    image: '/img/posts/post-7.jpg',
-    description: 'This city does not have to be the capital at all, it can be small and quiet, but very dear. Cities, like people, each has its own destiny, its own face and its own character.',
-  }, {
-    id: 8,
-    title: 'Science is power',
-    image: '/img/posts/post-8.jpg',
-    description: 'It reveals the relations of things, their laws and interactions.',
-  },
+  }, 
 ];

@@ -16,7 +16,7 @@ function PageWrapper({ children, withSidebar }) {
       <Header />
 
       <PageContainer>
-        {/* {withSidebar && <Sidebar />} */}
+        {withSidebar && <Sidebar />}
         {children}
       </PageContainer>
 

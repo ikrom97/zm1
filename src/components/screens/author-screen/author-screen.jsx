@@ -31,26 +31,26 @@ function AuthorScreen() {
         <Quote>The goal is high when love is vast</Quote>
       </Author>
 
-      <ScreenTitle>About author</ScreenTitle>
+      <ScreenTitle>{`Author's site`}</ScreenTitle>
       <AuthorName>Zafar Mirzo</AuthorName>
 
       <Info>
         <InfoItem>
-          <InfoTitle>Date of Birth</InfoTitle>
-          <InfoDescription>May 1, 1972</InfoDescription>
-        </InfoItem>
-
-        <InfoItem>
-          <InfoTitle>About author</InfoTitle>
+          {/* <InfoTitle></InfoTitle> */}
           <InfoDescription>
             <Text>Social entrepreneur & Chairman. I also engage in philosophical creativity.</Text>
           </InfoDescription>
         </InfoItem>
 
         <InfoItem>
+          <InfoTitle>Date of Birth</InfoTitle>
+          <InfoDescription>May 1, 1972</InfoDescription>
+        </InfoItem>
+
+        <InfoItem>
           <InfoTitle>Quotes</InfoTitle>
           <InfoDescription>
-            <Text>From the philosophical creativity of the author:</Text>
+            <Text>From my own philosophical creativity:</Text>
             <QuoteLinks>
               <Button href={AppRoute.Quotes}>{AppPage.Quotes}</Button>
               {/* <Button>Quotes of famous people</Button>

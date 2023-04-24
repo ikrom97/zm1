@@ -51,11 +51,14 @@ export const Info = styled.dl`
 
 export const InfoItem = styled.div`
   display: grid;
-  grid-template-columns: 170px auto;
   border-top: 1px solid #B2B2B2;
   padding: 16px;
   padding-bottom: 24px;
   gap: 32px;
+  
+  &:not(:first-child) {
+    grid-template-columns: 170px auto;
+  }
 `;
 
 export const InfoTitle = styled(({ children, ...rest }) => (

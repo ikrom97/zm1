@@ -13,8 +13,7 @@ function Footer() {
         <MainLogo footer />
 
         <Text>
-          Send feedback and suggestions <br />
-          by the address: <Link href="mailto:info@zafarmirzo.com">info@zafarmirzo.com</Link>
+          For feedback: <Link href="mailto:info@zafarmirzo.com">info@zafarmirzo.com</Link>
         </Text>
 
         {/* <Link href={AppRoute.PrivacyPolicy}>

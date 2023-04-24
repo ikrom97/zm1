@@ -15,6 +15,7 @@ import {
   Screen,
   ScreenTitle
 } from './styled';
+import { AppPage, AppRoute } from '@/const';
 
 function AuthorScreen() {
   return (
@@ -43,20 +44,21 @@ function AuthorScreen() {
         <InfoItem>
           <InfoTitle>About author</InfoTitle>
           <InfoDescription>
-            <Text>Social entrepreneur & Chairman. I also engage in philosophical creativity, and here I publish some of my brief thoughts.</Text>
+            <Text>Social entrepreneur & Chairman. I also engage in philosophical creativity.</Text>
           </InfoDescription>
         </InfoItem>
 
         <InfoItem>
           <InfoTitle>Quotes</InfoTitle>
           <InfoDescription>
-            <Text>Inspirational quotes from the author published on popular websites:</Text>
+            <Text>From the philosophical creativity of the author:</Text>
             <QuoteLinks>
-              <Button>Quotes of famous people</Button>
+              <Button href={AppRoute.Quotes}>{AppPage.Quotes}</Button>
+              {/* <Button>Quotes of famous people</Button>
               <Button>Proza.ru</Button>
               <Button>Million statuses</Button>
               <Button>Quotes.info</Button>
-              <Button>Pearls of Thought</Button>
+              <Button>Pearls of Thought</Button> */}
             </QuoteLinks>
           </InfoDescription>
         </InfoItem>

@@ -16,10 +16,10 @@ export const AppPage = {
 };
 
 export const navs = [
-  {
-    title: AppPage.Quotes,
-    path: AppRoute.Quotes,
-  },
+  // {
+  //   title: AppPage.Quotes,
+  //   path: AppRoute.Quotes,
+  // },
   // {
   //   title: AppPage.Tags,
   //   path: AppRoute.Tags,

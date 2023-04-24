@@ -7,7 +7,7 @@ function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    router.push(AppRoute.Quotes)
+    router.push(AppRoute.Author)
   }, [router]);
 
   return <PageWrapper></PageWrapper>;

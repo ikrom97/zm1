@@ -1,19 +1,11 @@
-import React, { useEffect } from 'react';
-import { useRouter } from 'next/router';
-import { AppRoute } from '@/const';
+import React from 'react';
 import PageWrapper from '@/components/layouts/page-wrapper/page-wrapper';
-import AuthorScreen from '@/components/screens/author-screen/author-screen';
+import HomeScreen from '@/components/screens/home-screen/home-screen';
 
 function Home() {
-  // const router = useRouter();
-
-  // useEffect(() => {
-  //   router.push(AppRoute.Author)
-  // }, [router]);
-
   return (
     <PageWrapper>
-      <AuthorScreen />
+      <HomeScreen />
     </PageWrapper>
   );
 }

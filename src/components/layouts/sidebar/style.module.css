@@ -1,0 +1,30 @@
+.sidebar {
+  position: sticky;
+  top: 112px;
+  width: 264px;
+  min-width: 264px;
+  height: calc(100vh - 136px);
+  background-color: white;
+  border-radius: 8px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 16px;
+  padding-right: 5px;
+  margin-right: 5px;
+  height: calc(100% - 32px);
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.posts::-webkit-scrollbar {
+  width: 6px;
+}
+
+.posts::-webkit-scrollbar-thumb {
+  background-color: #E2B65C;
+  border-radius: 4px;
+}

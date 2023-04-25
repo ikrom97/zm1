@@ -1,47 +1,31 @@
 import React from 'react';
-import { List, ListItem, PageLink, StyledNavigation } from './styled';
-import Button from '@/components/ui/button/button';
-import SearchIcon from '@/components/ui/icons/search-icon';
-import UserIcon from '@/components/ui/icons/user-icon';
 import { useRouter } from 'next/router';
 import { navs } from '@/const';
+import style from './style.module.css';
+import Link from 'next/link';
 
 function Navigation() {
   const router = useRouter();
-  const setClassName = (path) => router.pathname === path ? 'active' : '';
 
-  const handleLogin = () => {
-    console.log('Login handler');
-  };
+  if (router.pathname === '/') {
+    return null;
+  }
 
   return (
-    <StyledNavigation>
-      <List>
-        {navs?.map(({title, path}) => (
-          <ListItem key={title}>
-            <PageLink
-              className={setClassName(path)}
+    <nav className={style.nav}>
+      <ul className={style.list}>
+        {navs?.map(({ title, path }) => (
+          <li key={title} className={style.listItem}>
+            <Link
+              className={style.link}
               href={path}
             >
               {title}
-            </PageLink>
-          </ListItem>
+            </Link>
+          </li>
         ))}
-      </List>
-
-      {/* <List>
-        <ListItem>
-          <Button title="Поиск">
-            <SearchIcon />
-          </Button>
-        </ListItem>
-        <ListItem>
-          <Button fw={400} onClick={handleLogin}>
-            <UserIcon /> Вход
-          </Button>
-        </ListItem>
-      </List> */}
-    </StyledNavigation>
+      </ul>
+    </nav>
   );
 }
 

@@ -1,11 +1,11 @@
 import React from 'react';
-import { StyledTitle } from './styled';
+import classNames from 'classnames';
 
-function Title({children, ...rest}) {
+function Title({ children, className, ...rest }) {
   return (
-    <StyledTitle {...rest}>
+    <h2 className={classNames(style.title, className)} {...rest}>
       {children}
-    </StyledTitle>
+    </h2>
   );
 }
 

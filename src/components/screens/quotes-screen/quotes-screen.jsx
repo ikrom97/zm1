@@ -1,26 +1,20 @@
 import React from 'react';
-import { Footer, StyledScreen } from './styled';
 import BlockQuote from '@/components/ui/quote-card/quote-card';
 import ScrollTop from '@/components/ui/scroll-top/scroll-top';
-import Pagination from '@/components/ui/pagination/pagination';
-import { quotes } from '@/quotes';
+import { quotes } from '@/mocks/quotes';
+import style from './style.module.css';
 
 function QuotesScreen() {
   return (
-    <StyledScreen>
-      {/* {Array.from({ length: 10 }, (_, key) => (
-        <BlockQuote key={key} />
-      ))} */}
-
+    <main className={style.main}>
       {quotes.map((item, key) => (
         <BlockQuote key={key} quote={item} />
       ))}
 
-      <Footer>
-        {/* <Pagination /> */}
+      <footer className={style.footer}>
         <ScrollTop />
-      </Footer>
-    </StyledScreen>
+      </footer>
+    </main>
   );
 }
 

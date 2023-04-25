@@ -1,12 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
 import React from 'react';
-import { StyledLogo } from './styled';
 import { AppRoute } from '@/const';
 import dayjs from 'dayjs';
+import Link from 'next/link';
+import classNames from 'classnames';
+import style from './style.module.css';
 
-function Logo({ footer }) {
+function Logo({ footer, className }) {
   return (
-    <StyledLogo href={AppRoute.Home}>
+    <Link className={classNames(style.logo, className)} href={AppRoute.Home}>
       <img
         src={footer ? '/img/zm-icon.png' : '/img/main-logo.svg'}
         width="auto"
@@ -17,7 +18,7 @@ function Logo({ footer }) {
         &copy; Zafar Mirzo <br />
         2017 - {dayjs().format('YYYY')}
       </>}
-    </StyledLogo>
+    </Link>
   );
 }
 

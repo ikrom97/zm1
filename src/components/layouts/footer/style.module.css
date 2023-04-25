@@ -11,3 +11,9 @@
   justify-content: space-between;
   gap: 48px;
 }
+
+@media screen and (max-width: 1200px) {
+  .footerContainer {
+    gap: 24px;
+  }
+}

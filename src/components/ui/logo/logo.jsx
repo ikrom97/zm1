@@ -9,6 +9,7 @@ function Logo({ footer, className }) {
   return (
     <Link className={classNames(style.logo, className)} href={AppRoute.Home}>
       <img
+        className={style.image}
         src={footer ? '/img/zm-icon.png' : '/img/main-logo.svg'}
         width="auto"
         height="auto"

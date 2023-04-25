@@ -1,6 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 .link {
@@ -12,4 +13,10 @@
 .image {
   width: 100%;
   border-radius: 4px;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    min-width: max-content;
+  }
 }

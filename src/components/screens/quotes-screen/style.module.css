@@ -12,3 +12,17 @@
   justify-content: center;
   padding: 24px 0;
 }
+
+@media screen and (max-width: 1200px) {
+  .main {
+    position: relative;
+  }
+
+  .footer {
+    position: absolute;
+    top: 100%;
+    margin-top: 205px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

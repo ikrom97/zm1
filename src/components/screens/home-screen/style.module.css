@@ -54,3 +54,34 @@
   width: max-content;
   margin-top: 16px;
 }
+
+@media screen and (max-width: 1200px) {
+  .screen {
+    padding: 0;
+  }
+
+  .author {
+    float: none;
+    margin: 0;
+    flex-direction: column-reverse;
+    margin-bottom: 24px;
+  }
+
+  .authorImage {
+    height: auto;
+  }
+
+  .quote {
+    text-align: left;
+  }
+
+  .screenTitle {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  .authorName {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+}

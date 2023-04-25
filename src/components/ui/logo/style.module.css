@@ -8,3 +8,17 @@
   font-size: 16px;
   line-height: 24px;
 }
+
+.image {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .logo {
+    min-width: max-content;
+  }
+
+  footer .image {
+    display: none;
+  }
+}

@@ -63,7 +63,6 @@
   .author {
     float: none;
     margin: 0;
-    flex-direction: column-reverse;
     margin-bottom: 24px;
   }
 

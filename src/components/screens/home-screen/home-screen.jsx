@@ -18,7 +18,7 @@ function AuthorScreen() {
         <q className={style.quote}>The goal is high when love is vast</q>
       </div>
 
-      <h1 className={style.screenTitle}>{`Author's site`}</h1>
+      <h1 className={style.screenTitle}>Author's site</h1>
       <h2 className={style.authorName}>Zafar Mirzo</h2>
 
       <div className={style.info}>

@@ -19,4 +19,10 @@
   .card {
     min-width: max-content;
   }
+  .image {
+    width: 232px;
+    height: 142px;
+    border-radius: 4px;
+    object-fit: cover;
+  }
 }

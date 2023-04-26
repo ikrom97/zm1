@@ -1,6 +1,6 @@
 export const AppRoute = {
   Home: '/',
-  Quotes: '/quotes',
+  Quotes: '/thoughts',
   QuotesSelected: '/quotes/:id',
   Tags: '/tags',
   Author: '/author',
